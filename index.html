@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content:nth-child(2n) {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="view">
+        <div class="content">1</div>
+        <div class="content">2</div>
+        <div class="content">3</div>
+        <div class="content">4</div>
+        <div class="content">5</div>
+    </div>
+</body>
+<script src="./bundle/main.js"></script>
+<script>
+    let x = new FullPage('.view','.content',true,true,"bottom","red")
+</script>
+</html>

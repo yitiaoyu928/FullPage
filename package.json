@@ -1,0 +1,28 @@
+{
+  "name": "fullpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server",
+    "build":"webpack --config webpack.build.config.js"
+  },
+  "keywords": [
+    "全屏插件"
+  ],
+  "author": "七个鱼",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-arrow-functions": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^4.5.0",
+    "vue": "^2.6.12",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {}
+}
